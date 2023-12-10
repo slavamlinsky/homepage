@@ -1,13 +1,225 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Résumé</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-  ― Hello World! &#x1F609;
+  <main>
+    <div class="resume">
+      <div class="container">
+        <div class="resume__block">
+          <h1 class="contact-info__header">Slava Mlynskiy</h1>
+          <h3 class="contact-info__sub-header">Full Stack Developer</h3>
+
+          <div class="contact_info_container fh">
+            <div class="contact-info__block">
+              <a href="" rel="author" class="contact-info__item">
+                <div class="contact-info__item-icon-wrapper">
+                  <svg class="contact-info__item-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                    <path d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192
+                      0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535
+                      13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817
+                      80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z" fill="currentColor"></path>
+                  </svg>
+                </div>
+                <span>Odesa, Ukraine</span>
+              </a>
+              <a href="https://www.linkedin.com/in/slava-mlynskyi-654319239/" rel="author" class="contact-info__item">
+                <div class="contact-info__item-icon-wrapper">
+                  <svg class="contact-info__item-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                    <path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 
+                      480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4
+                      416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96
+                      102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1
+                      243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9
+                      54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2
+                      0 79.7 44.3 79.7 101.9V416z" fill="currentColor"></path>
+                  </svg>
+                </div>
+                <span>LinkedIn</span>
+              </a>
+              <a href="https://www.linkedin.com/in/slava-mlynskyi-654319239/" rel="author" class="contact-info__item">
+                <div class="contact-info__item-icon-wrapper">
+                  <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
+                    <path
+                      d="M512 256C512 114.6 397.4 0 256 0S0 114.6 0 256C0 376 82.7 476.8 194.2 504.5V334.2H141.4V256h52.8V222.3c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H287V510.1C413.8 494.8 512 386.9 512 256h0z"
+                      fill="currentColor" />
+                  </svg>
+                </div>
+                <span>FaceBook</span>
+              </a>
+            </div>
+            <div class="contact-info__block contact-info__block--center">
+              <img class="contact-info__avatar" src="assets/avatar_o.jpg" alt="Avatar">
+            </div>
+            <div class="contact-info__block">
+              <a href="mailto:slavamlinsky@gmail.com" rel="author" class="contact-info__item">
+                <div class="contact-info__item-icon-wrapper">
+                  <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
+                    <path
+                      d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"
+                      fill="currentColor" />
+                  </svg>
+                </div>
+                <span>slavamlinsky@gmail.com</span>
+              </a>
+              <a href="tel:+380637739377" rel="author" class="contact-info__item">
+                <div class="contact-info__item-icon-wrapper">
+                  <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
+                    <path
+                      d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z"
+                      fill="currentColor" />
+                  </svg>
+                </div>
+                <span>+380637739377</span>
+              </a>
+              <a href="https://t.me/slavamlynskiy" rel="author" class="contact-info__item">
+                <div class="contact-info__item-icon-wrapper">
+                  <svg xmlns="http://www.w3.org/2000/svg" height="16" width="15.5" viewBox="0 0 496 512">
+                    <path
+                      d="M248 8C111 8 0 119 0 256S111 504 248 504 496 393 496 256 385 8 248 8zM363 176.7c-3.7 39.2-19.9 134.4-28.1 178.3-3.5 18.6-10.3 24.8-16.9 25.4-14.4 1.3-25.3-9.5-39.3-18.7-21.8-14.3-34.2-23.2-55.3-37.2-24.5-16.1-8.6-25 5.3-39.5 3.7-3.8 67.1-61.5 68.3-66.7 .2-.7 .3-3.1-1.2-4.4s-3.6-.8-5.1-.5q-3.3 .7-104.6 69.1-14.8 10.2-26.9 9.9c-8.9-.2-25.9-5-38.6-9.1-15.5-5-27.9-7.7-26.8-16.3q.8-6.7 18.5-13.7 108.4-47.2 144.6-62.3c68.9-28.6 83.2-33.6 92.5-33.8 2.1 0 6.6 .5 9.6 2.9a10.5 10.5 0 0 1 3.5 6.7A43.8 43.8 0 0 1 363 176.7z"
+                      fill="currentColor" />
+                  </svg>
+                </div>
+                <span>Telegram</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="resume__block">
+          <div class="intro">
+            <div class="intro__icon-wrapper">
+              <svg class="intro__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                <path d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7
+                  24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0
+                  26.5 21.5 48 48 48h128c26.5 0 48-21.5
+                  48-48V304c0-26.5-21.5-48-48-48zm-288 0H96v-64c0-35.3 28.7-64
+                  64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6
+                  32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5
+                  48-48V304c0-26.5-21.5-48-48-48z"></path>
+              </svg>
+            </div>
+            <p class="intro_text">
+              I have been interested in computers and technology since school. At the moment I have experience in
+              creating various web projects. In the near future I would like to work for a big and well-known company. I
+              believe, that experience gained within the Binary Studio Academy will help me achive this goal.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="resume__block">
+          <div class="skills">
+            <h3 class="skills__header">Technology stack</h3>
+            <p class="skills__text">
+              HTML5, CSS3, JavaScript, SEO, PHP, SQL, SCSS, MongoDb, React.Js, Node.Js, TailWind.Css, Next.Js, GIT.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="resume__block">
+          <div class="main-info fh">
+            <div class="experiences">
+              <h3 class="experiences__header">Experience</h3>
+              <div class="experiences__company">
+                <div class="experiences__company-header">
+                  <span class="experiences__company-header-durability">2023</span>
+                  <h3 class="experiences__company-header-name">Winno.Ch</h3>
+                </div>
+
+                <div class="experiences__company-project">
+                  <span class="experiences__company-project-role">FullStack developer </span>
+                  <h3 class="experiences__company-project-name">Plugin for WebFlow</h3>
+                  <ul class="experiences__company-project-responsibilities">
+                    <li>BackEnd development</li>
+                    <li>FrontEnd development</li>
+                    <li>Deploy & Testing</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="experiences__company">
+                <div class="experiences__company-header">
+                  <span class="experiences__company-header-durability">2014</span>
+                  <h3 class="experiences__company-header-name">ALLY.com.ua</h3>
+                </div>
+
+                <div class="experiences__company-project">
+                  <span class="experiences__company-project-role">Technical Director</span>
+                  <h3 class="experiences__company-project-name">Travel Web Portal</h3>
+                  <ul class="experiences__company-project-responsibilities">
+                    <li>Research & Design</li>
+                    <li>BackEnd & FrontEnd</li>
+                    <li>SEO & Marketing</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="additional-info fv">
+              <div class="additional-info fv">
+                <div class="additional-info__education">
+                  <h3 class="additional-info__education-header">Education</h3>
+                  <div class="additional-info__education-university">
+                    <span class="additional-info__education-university-durability">2013</span>
+                    <h3 class="additional-info__education-university-speciality">
+                      Middle Management
+                    </h3>
+                    <p class="additional-info__education-university-name">
+                      Advance Business School
+                    </p>
+                  </div>
+                  <div class="additional-info__education-university">
+                    <span class="additional-info__education-university-durability">2006</span>
+                    <h3 class="additional-info__education-university-speciality">
+                      Master in Applied Math
+                    </h3>
+                    <p class="additional-info__education-university-name">
+                      Odesa National University named after I.I. Mechnikov
+                    </p>
+                  </div>
+                  <div class="additional-info__education-university">
+                    <span class="additional-info__education-university-durability">2004</span>
+                    <h3 class="additional-info__education-university-speciality">
+                      Web Development & Design
+                    </h3>
+                    <p class="additional-info__education-university-name">
+                      IT Step Computer Academy
+                    </p>
+                  </div>
+                </div>
+
+                <div class="additional-info__languages">
+                  <h3 class="additional-info__languages-header">Languages</h3>
+                  <p class="additional-info__languages-item">Ukrainiad (Native)</p>
+                  <p class="additional-info__languages-item">English (Upper-Intermediate)</p>
+                  <p class="additional-info__languages-item">Deutch (Basic)</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="resume__block">
+          <div class="skills">
+            <h3 class="skills__header">Hobbies & Interests</h3>
+            <p class="skills__text">
+              Travelling (visited over 15 countries), music, sport, YouTube blogging, chess, English speaking club,
+              books.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
 </body>
 
 </html>
