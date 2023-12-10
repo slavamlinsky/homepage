@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -5,7 +7,7 @@
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   line-height: 1.5;
 
   --primary-text-color: #181820;
@@ -88,7 +90,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 200px;
+  width: 220px;
 }
 
 .contact-info__block--center {
