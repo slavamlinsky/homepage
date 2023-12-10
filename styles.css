@@ -88,10 +88,12 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  width: 200px;
 }
 
 .contact-info__block--center {
   justify-content: center;
+  align-items: center;
 }
 
 .contact-info__item {
@@ -99,6 +101,7 @@ body {
   text-decoration: none;
   display: flex;
   justify-content: start;
+  align-items: center;
 }
 
 .contact-info__item:not(:last-child) {
